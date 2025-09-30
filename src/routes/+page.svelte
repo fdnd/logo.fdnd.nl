@@ -41,6 +41,17 @@ read all textual content to make sure you embed these logo's properly.</p>
   </picture>
 </article>
 
+
+<article>
+  <h3>HvA Payoff</h3>
+  <p></p>
+
+  <pre>&lt;img src="https://logo.fdnd.nl/payoff" /&gt;</pre>
+  <picture>
+    <img src="/payoff/" alt="SVG version of the HvA payoff" srcset="">
+  </picture>
+</article>
+
 <p>We will develop a lot more options, stay tuned for updates...</p>
 
 <style>
