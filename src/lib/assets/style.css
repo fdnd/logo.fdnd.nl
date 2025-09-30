@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400..800;1,400..800');
+:root {
+  --grey: #ececec;
+  --purple: #a675f5;
+  --blue: #050542;
+  --blue-50: rgba(5, 5, 66, 0.5);
+  --green: #66e5bf;
+  --yellow: #fffc86;
+  --stroke: 8;
+}

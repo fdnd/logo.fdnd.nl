@@ -1,35 +1,24 @@
 <script>
-  import { disableScrollHandling } from "$app/navigation"
-
-  // const { name } = $props()
-  const p = $props()
-  const name = p.name
-  console.log(p)
-  
-
+  const { name } = $props()
 </script>
 
 <svg viewBox="0 0 425 310" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style type="text/css">
       :root {
-        --grey: #ECECEC;
-        --purple: #A675F5;
-        --blue: #050542;
-        --blue-50: rgba(5, 5, 66, 0.5);
-        --green: #66E5BF;
-        --yellow: #FFFC86;
-        --stroke: 8;
+        --stroke: #050542;
+        --fill: #ECECEC;
+        --stroke-width: 8;
       }
       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400..800;1,400..800');
       rect {
-        stroke: var(--blue);
-        fill: var(--grey);
-        stroke-width: var(--stroke);
+        stroke: var(--stroke);
+        fill: var(--fill);
+        stroke-width: var(--stroke-width);
       }
       text {
         font-family: 'Open Sans';
-        fill: var(--blue);
+        fill: var(--stroke);
       }
       text#name {
         font-size: 70px;

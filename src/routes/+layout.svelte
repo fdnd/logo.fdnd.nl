@@ -9,7 +9,7 @@
 </svelte:head>
 
 <header>
-
+	<img src="" alt="">
 </header>
 
 {@render children?.()}
